@@ -4,10 +4,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
     background: grey;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
     font-size: 120%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .snow, .snow::after, .snow::before {
